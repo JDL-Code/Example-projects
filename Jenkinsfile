@@ -7,7 +7,7 @@ pipeline {
                 sh 'ls -l'
             }
         }
-        stage('Show index.js') {
+        stage('Hello Jenkins') {
             steps { //ในโปรเจคต้องมี index.js
                 echo "Hello Jenkins!"
             }
